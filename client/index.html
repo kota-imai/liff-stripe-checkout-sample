@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LIFF Stripe Payment demo</title>
+  <meta name="description" content="A demo of Stripe Checkout" />
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <script src="https://js.stripe.com/v3/"></script>
+  <script charset="utf-8" src="liff.js"></script>
+  <script charset="utf-8" src="/index.js" defer></script>
+</head>
+
+<body>
+  <div class="sr-root">
+    <div class="sr-main">
+      <header class="sr-header">
+        <div class="sr-header__logo"></div>
+      </header>
+      <div class="sr-payment-summary payment-view">
+        <h4>Payment demo subscription</h4>
+        <h1 class="order-amount">500円</h1>
+      </div>
+      <div class="sr-payment-form payment-view">
+        <label class="sr-checkbox-label">
+          <button id="submit">購入する</button>
+      </div>
+    </div>
+    <div class="sr-content">
+      <div class="pasha-image-stack">
+        <img src="https://picsum.photos/280/320?random=1" width="140" height="160" />
+        <img src="https://picsum.photos/280/320?random=2" width="140" height="160" />
+        <img src="https://picsum.photos/280/320?random=3" width="140" height="160" />
+        <img src="https://picsum.photos/280/320?random=4" width="140" height="160" />
+      </div>
+    </div>
+
+</body>
+
+</html>
