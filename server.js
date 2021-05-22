@@ -3,15 +3,13 @@ const app = express();
 const { resolve } = require("path");
 const PORT = process.env.PORT || 5000
 
-// Copy the .env.example in the root into a .env file in this folder
-const env = require("dotenv").config({ path: "./.env" });
+const env = require("dotenv").config({ path: "./.env" }); // 各変数を環境変数に定義する場合はコメントアウト
+
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 app.use(express.static(process.env.STATIC_DIR));
 app.use(
   express.json({
-    // We need the raw body to verify webhook signatures.
-    // Let's compute it only when hitting the Stripe webhook endpoint.
     verify: function (req, res, buf) {
       if (req.originalUrl.startsWith("/webhook")) {
         req.rawBody = buf.toString();
@@ -25,13 +23,14 @@ app.get("/", (req, res) => {
   res.sendFile(path);
 });
 
-// Fetch the Checkout Session to display the JSON result on the success page
+// Checkout Session の結果を取得
 app.get("/checkout-session", async (req, res) => {
   const { sessionId } = req.query;
   const session = await stripe.checkout.sessions.retrieve(sessionId);
   res.send(session);
 });
 
+// Checkout Sessionを開始する
 app.post("/create-checkout-session", async (req, res) => {
   const priceId = process.env.SUBSCRIPTION_PRICE_ID;
   const productId = process.env.DONATION_PRODUCT_ID;
@@ -41,7 +40,7 @@ app.post("/create-checkout-session", async (req, res) => {
   const idToken = req.body.token;
   let userId;
 
-  // IDトークンを検証
+  // LINEのIDトークン検証
   const request = require('request');
   const options = {
     uri: "https://api.line.me/oauth2/v2.1/verify",
@@ -70,7 +69,6 @@ app.post("/create-checkout-session", async (req, res) => {
       });
     }
 
-    // Sign customer up for subscription and add donation if provided
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       mode: "subscription",
@@ -98,7 +96,7 @@ app.get("/publishable-key", (req, res) => {
   });
 });
 
-// // Webhook handler for asynchronous events.
+// Webhook handler for asynchronous events.
 // app.post("/webhook", async (req, res) => {
 //   let data;
 //   let eventType;
