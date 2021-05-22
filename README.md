@@ -1,12 +1,12 @@
 # LIFFとStripe CheckoutでLINE上で使える決済画面を作ろうハンズオン！
-<br>
+
 こちらはLINE Developers Community にてハンズオンを行った際の手順をまとめたものです。
-<br><br>
+<br><br><br>
 
 ## デモ
 
-[デモサイト](https://liff.line.me/1655194342-OBj3dG0j)
-LINEが立ち上がります。
+[デモサイト](https://liff.line.me/1655194342-OBj3dG0j)<br>
+LINEが立ち上がります。<br>
 テスト用のカード4242-4242-4242-4242を使って決済の流れをご確認頂けます。カード有効期限とCVC、所有者名、メールアドレスは適当でokです。
 <br><br><br>
 ## 開発環境
@@ -14,7 +14,8 @@ Node.js
 <br><br><br>
 ## １．ソースコードを取得
 
-↓コードは[GitHubのリポジトリ](https://github.com/kota-imai/liff-stripe-checkout-sample)を公開してますので、そちらを落としてみてください。[Stripe公式のサンプル](https://github.com/stripe-samples/checkout-subscription-and-add-on)をLIFF向けに修正したものです。
+↓コードは[GitHubのリポジトリ](https://github.com/kota-imai/liff-stripe-checkout-sample)を公開してますので、そちらを落としてみてください。<br>
+[Stripe公式のサンプル](https://github.com/stripe-samples/checkout-subscription-and-add-on)をLIFF向けに修正したものです。
 
 ```
 $ git clone https://github.com/kota-imai/liff-stripe-checkout-sample.git
