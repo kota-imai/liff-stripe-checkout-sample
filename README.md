@@ -169,7 +169,7 @@ https://developers.line.biz/ja/reference/line-login/#verify-id-token<br>
 
 
 ## チャットボット有料化デモアプリ
-![demo](https://mybucketkaonga9public.s3-ap-northeast-1.amazonaws.com/screen-20210527-212752.gif)
+[demo](https://mybucketkaonga9public.s3-ap-northeast-1.amazonaws.com/screen-20210527-212752.gif)
 
 StripeとMessaging APIを組み合わせてデモアプリをつくってみました。<br>
 有料機能と無料機能の区別、ステータス別リッチメニュー、領収書のダウンロードなどをお試し頂けます。
