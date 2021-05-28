@@ -139,7 +139,7 @@ LIFFアプリのURLを開くと決済画面が立ち上がるかと思います�
 <br>
 作成したら「Open app」からアプリのURLを確認して、envファイルとLINE DevelopersのエンドポイントURLを上書きしてください。
 <br><br>
-今回宣伝eroku CLIを使ってデプロイしていきます。詳しい手順は[コチラ](https://devcenter.heroku.com/ja/articles/git)！
+今回はHeroku CLIを使ってデプロイしていきます。詳しい手順は[コチラ](https://devcenter.heroku.com/ja/articles/git)！
 
 
 <br><br><br>
