@@ -5,7 +5,7 @@
 
 ## デモ
 
-[デモサイト](https://liff.line.me/1655194342-OBj3dG0j){:target="_blank"}<br><br>
+[デモサイト](https://liff.line.me/1655194342-OBj3dG0j)<br><br>
 LINEが立ち上がります。<br><br>
 テスト用のカード4242-4242-4242-4242を使って決済の流れをご確認頂けます。カード有効期限とCVC、所有者名、メールアドレスは適当でokです。
 <br><br><br>
@@ -14,8 +14,8 @@ Node.js
 <br><br><br>
 ## １．ソースコードを取得
 
-↓コードは[GitHubのリポジトリ](https://github.com/kota-imai/liff-stripe-checkout-sample){:target="_blank"}を公開してますので、そちらを落としてみてください。<br>
-[Stripe公式のサンプル](https://github.com/stripe-samples/checkout-subscription-and-add-on){:target="_blank"}をLIFF向けに修正したものです。
+↓コードは[GitHubのリポジトリ](https://github.com/kota-imai/liff-stripe-checkout-sample)を公開してますので、そちらを落としてみてください。<br>
+[Stripe公式のサンプル](https://github.com/stripe-samples/checkout-subscription-and-add-on)をLIFF向けに修正したものです。
 
 ```
 $ git clone https://github.com/kota-imai/liff-stripe-checkout-sample.git
@@ -84,9 +84,9 @@ LIFF IDはLIFFアプリ作成後に付与されます。
 ![image-20210522215840254](https://user-images.githubusercontent.com/56163213/119227462-eb9e6d80-bb48-11eb-8773-b6a5f1898918.png)
 
 <br><br><br>
-## ４．ngrokでトンネリング開始
+## ４．ngrokでポート5000番を公開
 
-↓ngrokでポートフォワーディング
+↓ngrokのコマンド
 
 ```
 $ ngrok http 5000
@@ -135,7 +135,7 @@ LIFFアプリのURLを開くと決済画面が立ち上がるかと思います�
 
 ## ７．Herokuにデプロイ
 
-[Heorku](https://dashboard.heroku.com/apps){:target="_blank"}のコンソール画面からアプリケーションを作成します。
+[Heorku](https://dashboard.heroku.com/apps)のコンソール画面からアプリケーションを作成します。
 <br>
 作成したら「Open app」からアプリのURLを確認して、envファイルとLINE DevelopersのエンドポイントURLを上書きしてください。
 <br><br>
@@ -180,7 +180,7 @@ StripeとMessaging APIを組み合わせてデモアプリをつくってみま�
 <br><br><br>
 
 ## 最後に宣伝！
-[Simple AWS Launcher](https://chrome.google.com/webstore/detail/odbbkogjmgpmdfindgkngoojldhephif){:target="_blank"}<br>
+[Simple AWS Launcher](https://chrome.google.com/webstore/detail/odbbkogjmgpmdfindgkngoojldhephif)<br>
 AWSのコンソール画面を開くときに便利な拡張機能を公開しています。<br>
 時短ツールです。毎日AWSに触れる方はぜひ試してみてください！
 
