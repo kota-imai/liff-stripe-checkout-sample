@@ -5,7 +5,7 @@
 
 ## デモ
 
-[デモサイト](https://liff.line.me/1655194342-OBj3dG0j)<br><br>
+[デモサイト](https://liff.line.me/1655194342-OBj3dG0j){:target="_blank"}<br><br>
 LINEが立ち上がります。<br><br>
 テスト用のカード4242-4242-4242-4242を使って決済の流れをご確認頂けます。カード有効期限とCVC、所有者名、メールアドレスは適当でokです。
 <br><br><br>
@@ -14,8 +14,8 @@ Node.js
 <br><br><br>
 ## １．ソースコードを取得
 
-↓コードは[GitHubのリポジトリ](https://github.com/kota-imai/liff-stripe-checkout-sample)を公開してますので、そちらを落としてみてください。<br>
-[Stripe公式のサンプル](https://github.com/stripe-samples/checkout-subscription-and-add-on)をLIFF向けに修正したものです。
+↓コードは[GitHubのリポジトリ](https://github.com/kota-imai/liff-stripe-checkout-sample){:target="_blank"}を公開してますので、そちらを落としてみてください。<br>
+[Stripe公式のサンプル](https://github.com/stripe-samples/checkout-subscription-and-add-on){:target="_blank"}をLIFF向けに修正したものです。
 
 ```
 $ git clone https://github.com/kota-imai/liff-stripe-checkout-sample.git
@@ -59,7 +59,7 @@ const liffId = (⑦作成したLIFFアプリのLIFF ID)
 <br><br><br>
 ## ２．LINE側の設定
 
-まずは[LINE Developers](https://developers.line.biz/ja/) からチャンネルを作成します。LINEログインのチャンネルにLIFFアプリを登録していきます。
+まずは[LINE Developers](https://developers.line.biz/ja/){:target="_blank"} からチャンネルを作成します。LINEログインのチャンネルにLIFFアプリを登録していきます。
 <br><br>
 **チャネルID**と**LIFF ID**を控えて .env ファイルに追加してください。
 LIFF IDはLIFFアプリ作成後に付与されます。
@@ -72,7 +72,7 @@ LIFF IDはLIFFアプリ作成後に付与されます。
 
 ## ３．Stripe側の設定
 
-次に[Stripe](https://dashboard.stripe.com/dashboard)のダッシュボードから定期支払いの商品を作成します。
+次に[Stripe](https://dashboard.stripe.com/dashboard){:target="_blank"} のダッシュボードから定期支払いの商品を作成します。
 <br><br>
 ホーム画面で確認できる**公開可能キー**（pk_XXXXXXX）と**シークレットキー**（sk_XXXXXXX）
 <br>
@@ -135,7 +135,7 @@ LIFFアプリのURLを開くと決済画面が立ち上がるかと思います�
 
 ## ７．Herokuにデプロイ
 
-[Heorku](https://dashboard.heroku.com/apps)のコンソール画面からアプリケーションを作成します。
+[Heorku](https://dashboard.heroku.com/apps){:target="_blank"}のコンソール画面からアプリケーションを作成します。
 <br>
 作成したら「Open app」からアプリのURLを確認して、envファイルとLINE DevelopersのエンドポイントURLを上書きしてください。
 <br><br>
@@ -180,7 +180,7 @@ StripeとMessaging APIを組み合わせてデモアプリをつくってみま�
 <br><br><br>
 
 ## 最後に宣伝！
-[Simple AWS Launcher](https://chrome.google.com/webstore/detail/odbbkogjmgpmdfindgkngoojldhephif)<br>
+[Simple AWS Launcher](https://chrome.google.com/webstore/detail/odbbkogjmgpmdfindgkngoojldhephif){:target="_blank"}<br>
 AWSのコンソール画面を開くときに便利な拡張機能を公開しています。<br>
 時短ツールです。毎日AWSに触れる方はぜひ試してみてください！
 
