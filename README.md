@@ -139,7 +139,7 @@ LIFFアプリのURLを開くと決済画面が立ち上がるかと思います�
 <br>
 作成したら「Open app」からアプリのURLを確認して、envファイルとLINE DevelopersのエンドポイントURLを上書きしてください。
 <br><br>
-今回はHeroku CLIを使ってデプロイしていきます。詳しい手順は[コチラ](https://devcenter.heroku.com/ja/articles/git)！
+今回宣伝eroku CLIを使ってデプロイしていきます。詳しい手順は[コチラ](https://devcenter.heroku.com/ja/articles/git)！
 
 
 <br><br><br>
@@ -173,8 +173,16 @@ https://developers.line.biz/ja/reference/line-login/#verify-id-token<br>
 
 StripeとMessaging APIを組み合わせてデモアプリをつくってみました。<br>
 有料機能と無料機能の区別、ステータス別リッチメニュー、領収書のダウンロードなどをお試し頂けます。
-決済時は4242-4242-4242-4242のカード情報を使用して下さい。<br>
-使ってみてね！→[デモアカウント](https://lin.ee/EEP2asr)
+決済時はテスト用のカード 4242-4242-4242-4242 を使用して下さい。<br>
+ぜひ使ってみてください！→[デモアカウント](https://lin.ee/EEP2asr)
+
+
+<br><br><br>
+
+## 最後に宣伝！
+[Simple AWS Launcher](https://chrome.google.com/webstore/detail/odbbkogjmgpmdfindgkngoojldhephif)
+AWSのコンソール画面を開くときに便利な拡張機能を公開しています。<br>
+時短ツールです。毎日AWS使う方は是非試してみてください！
 
 
 
