@@ -72,7 +72,7 @@ LIFF IDはLIFFアプリ作成後に付与されます。
 
 ## ３．Stripe側の設定
 
-次に[Stripe](https://dashboard.stripe.com/dashboard){:target="_blank"} のダッシュボードから定期支払いの商品を作成します。
+次に[Stripe](https://dashboard.stripe.com/dashboard) のダッシュボードから定期支払いの商品を作成します。
 <br><br>
 ホーム画面で確認できる**公開可能キー**（pk_XXXXXXX）と**シークレットキー**（sk_XXXXXXX）
 <br>
