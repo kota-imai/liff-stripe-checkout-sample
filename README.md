@@ -135,9 +135,9 @@ LIFFアプリのURLを開くと決済画面が立ち上がるかと思います�
 
 ## ７．Herokuにデプロイ
 
-新しくアプリケーションを作成します。
+[Heorku](https://dashboard.heroku.com/apps)のコンソール画面からアプリケーションを作成します。
 <br>
-作成後「Open app」からアプリのURLを確認して、envファイルとLINE DevelopersのエンドポイントURLを上書きしてください。
+作成したら「Open app」からアプリのURLを確認して、envファイルとLINE DevelopersのエンドポイントURLを上書きしてください。
 <br><br>
 今回はHeroku CLIを使ってデプロイしていきます。詳しい手順は[コチラ](https://devcenter.heroku.com/ja/articles/git)！
 
@@ -169,12 +169,13 @@ https://developers.line.biz/ja/reference/line-login/#verify-id-token<br>
 
 
 ## チャットボット有料化デモアプリ
-[demo](https://mybucketkaonga9public.s3-ap-northeast-1.amazonaws.com/screen-20210527-212752.gif)
+[動画](https://mybucketkaonga9public.s3-ap-northeast-1.amazonaws.com/screen-20210527-212752.gif)
 
 StripeとMessaging APIを組み合わせてデモアプリをつくってみました。<br>
 有料機能と無料機能の区別、ステータス別リッチメニュー、領収書のダウンロードなどをお試し頂けます。
 決済時は4242-4242-4242-4242のカード情報を使用して下さい。<br>
-https://lin.ee/EEP2asr
+使ってみてね！→[デモアカウント](https://lin.ee/EEP2asr)
+
 
 
 
