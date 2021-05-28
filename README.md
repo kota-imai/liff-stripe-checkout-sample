@@ -180,9 +180,9 @@ StripeとMessaging APIを組み合わせてデモアプリをつくってみま�
 <br><br><br>
 
 ## 最後に宣伝！
-[Simple AWS Launcher](https://chrome.google.com/webstore/detail/odbbkogjmgpmdfindgkngoojldhephif)
+[Simple AWS Launcher](https://chrome.google.com/webstore/detail/odbbkogjmgpmdfindgkngoojldhephif)<br>
 AWSのコンソール画面を開くときに便利な拡張機能を公開しています。<br>
-時短ツールです。毎日AWS使う方は是非試してみてください！
+時短ツールです。毎日AWSに触れる方はぜひ試してみてください！
 
 
 
