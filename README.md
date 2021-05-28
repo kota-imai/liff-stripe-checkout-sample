@@ -59,7 +59,7 @@ const liffId = (⑦作成したLIFFアプリのLIFF ID)
 <br><br><br>
 ## ２．LINE側の設定
 
-まずは[LINE Developers](https://developers.line.biz/ja/){:target="_blank"} からチャンネルを作成します。LINEログインのチャンネルにLIFFアプリを登録していきます。
+まずは<a href="https://developers.line.biz/ja/" target="_blank">LINE Developers</a> からチャンネルを作成します。LINEログインのチャンネルにLIFFアプリを登録していきます。
 <br><br>
 **チャネルID**と**LIFF ID**を控えて .env ファイルに追加してください。
 LIFF IDはLIFFアプリ作成後に付与されます。
