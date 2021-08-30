@@ -1,6 +1,10 @@
 # LIFFとStripe CheckoutでLINE上で使える決済画面を作ろうハンズオン！
 
 こちらはLINE Developers Community にてハンズオンを行った際の手順をまとめたものです。
+<br>
+[イベントページ](https://linedevelopercommunity.connpass.com/event/211856/)
+<br>
+[アーカイブ動画（LINE Developers Community）](https://www.youtube.com/watch?v=oCNtm6KPH1M&t=5680s)
 <br><br><br>
 
 ## デモ
